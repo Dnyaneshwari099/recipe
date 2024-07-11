@@ -83,7 +83,7 @@ function Home() {
         return (
             <div className="Home">
                 <div className="title">
-                    <a href="/"><h1>Recipes Finder</h1></a>
+                    <a href="/"><h1>RASOI TALES </h1></a>
                 </div>
                 <form onSubmit={GET_SEARCH} className="search-form">
                     <input className="search-bar" type="text" placeholder="Type ingredients separated by spaces" value={search} onChange={UPDATE_SEARCH} />
